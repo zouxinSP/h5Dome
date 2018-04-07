@@ -1,0 +1,40 @@
+
+
+
+
+	.container{
+		margin-bottom: 120px;
+
+	}
+	.container ul{}
+	.container ul li {
+		height: 85px;
+		width: 100%;
+		line-height: 85px;
+		border-bottom: 1px solid #ccc;
+		background-color: #fff;
+	}
+	.container ul li label {
+		font-size: 24px;
+		margin-left: 30px;
+	}
+	
+	.container ul li input {
+		border: 0;
+		background-color: #fff;
+		margin-left: 8px;
+		font-size: 20px;
+	}
+
+	 #submit {
+		display: block;
+		width: 80%;
+		height: 84px;
+		margin:20px auto;
+		background-color: #ff731c;
+		border-radius: 10px;
+		border: 0;
+		font-size: 30px;
+		color: #fff;
+	}
+

@@ -1,0 +1,73 @@
+
+
+
+	.container{
+		margin-top: 20px;
+		margin-bottom: 120px;
+	}
+	.container .item {
+		margin-bottom: 20px;
+		width: 100%;
+		height: 200px;
+		background-color: #fff;
+
+	}
+	.container .item .order-num {
+		height: 60px;
+		border-bottom: 1px solid #c0c0c0;
+	}
+	.container .item .order-num h2 {
+		float: left;
+		margin-left: 2%;
+		line-height: 60px;
+	}
+	.container .item .order-num span {
+		float: right;
+		color: #f00;
+		font-size: 20px;
+		line-height: 60px;
+		margin-right: 2%;
+	}
+	.container .item .order-msg {
+		height: 40px;
+		padding:10px 0;
+		border-bottom: 1px solid #c0c0c0;
+	}
+	.container .item .order-msg p {
+		height: 20px;
+		font-size: 16px;
+		color: #ccc;
+		margin-left: 3%;
+	}
+	.container .item .order-opt {
+		height: 80px;
+		margin-right: 3%;
+		margin-top: 16px;
+	}
+	.container .item .order-opt span {
+		float: right;
+		border:1px solid #f00;
+		display: block;
+		height: 24px;
+		width: 80px;
+		padding: 10px;
+		border-radius: 10px;
+		text-align: center;
+		line-height: 24px;
+		color: #f00;
+		font-weight: 700;
+		margin-left: 20px;
+	}
+
+	@media screen and  (min-width: 640px){
+	.container{
+		height: 960px;
+	}
+	
+	.container .item {
+		width: 40%;
+		float: left;
+		margin-bottom: 10px;
+		margin:20px 5%;
+	}
+}

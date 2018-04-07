@@ -1,0 +1,156 @@
+	.header {
+		width: 100%;
+		height:60px;
+		background-color: #fa4b28;
+		color: #fff;
+	}
+	.header span{
+		height: 100%;
+		line-height: 60px;
+		text-align: center;
+		float: left;
+		font-size: 20px;
+		width: 10%;	
+		padding-left: 5%;
+	}
+	.header h2{	
+		width: 70%;	
+		text-align: center;
+		line-height: 60px;
+	}
+
+	.header i{
+		width: 10%;	
+		height: 100%;
+		float: right;
+		padding-right: 5%;
+		background-image: url(../images/header-bot-tel.jpg);
+		background-repeat: no-repeat;
+		background-position: center center;
+		
+	}
+
+	.swiper {
+		width: 100%;
+		height: 326px;
+	}
+	.swiper .swiper-container {
+		width: 100%;
+		height: 100%;
+	}
+	.swiper .swiper-container img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.ind-nav1 {
+		width: 100%;
+		height: 400px;
+		background-color: #fff;
+		padding-top: 10px;
+	}
+	.ind-nav1 h2 {
+		width: 80px;
+		height: 30px;
+		text-align: center;
+		line-height: 30px;
+		margin: 10px 0;
+		color: #fff;
+		margin-left: 1%;
+		background-color: #fa4b28;
+		font-size: 18px;
+		padding:5px;
+	}
+	.ind-nav1 ul {
+		width: 100%;
+		height: 320px;
+	}
+	.ind-nav1 ul li {
+		width: 20%;
+		height: 160px;
+		float: left;
+		text-align: center;
+	}
+	.ind-nav1 ul li img {
+		margin-top: 40px;
+	}
+	.ind-nav1 ul li p {
+		margin-top: 10px;
+	}
+
+	.ind-nav1 + .ind-nav1 {
+		margin-top: 14px;
+	}
+
+	.ind-item {
+		margin-top: 14px;
+		width: 100%;
+		height: 150px;
+		background-color: #fff;
+		display: inline-block;
+		position: relative;
+	}
+	.ind-item img {
+		height: 120px;
+		width: 120px;
+		margin-top: 15px;
+		margin-left: 20px;
+	}
+	.ind-item h2 {
+		position: absolute;
+		left: 150px;
+		top: 40px;
+		color: #f00;
+	}
+	.ind-item p {
+		position: absolute;
+		left: 150px;
+		top: 80px;
+		color: #c0c0c0;
+
+	}
+	.ind-item  + .ind-item  {
+		margin-bottom: 120px;
+	}
+
+	
+
+@media screen and  (max-width: 320px){
+	.ind-nav1 {
+		height: 720px;
+	}
+	.ind-nav1 ul {
+		height: 640px;
+	}
+	.ind-nav1 ul li{
+		width: 50%;
+	}
+	
+	.ind-nav1 + .ind-nav1 {
+		height: 880px;
+	}
+	.ind-nav1 + .ind-nav1 ul {
+		height: 800px;
+	}
+	
+}
+
+@media screen and (min-width: 321px) and (max-width: 640px){
+	.ind-nav1 {
+		height: 400px;
+	}
+	.ind-nav1 ul {
+		height: 320px;
+	}
+	.ind-nav1 ul li{
+		width: 25%;
+	}
+
+	.ind-nav1 + .ind-nav1 {
+		height: 560px;
+	}
+	.ind-nav1 + .ind-nav1 ul {
+		height: 480px;
+	}
+}
+

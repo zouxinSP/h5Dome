@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>家帮网</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href='swiper/swiper-4.1.6.min.css'>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src='swiper/swiper-4.1.6.min.js'></script>
+    <script src='jquery/jquery.min.js'></script>
+</head>
+<body>
+	<!-- 头部区域 -->
+	<div class="header">
+		<span >广州</span>
+		<h2>家帮网</h2>
+		<i></i>
+	</div>
+	<!-- 轮播图区域 -->
+	<div class="swiper">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="images/ind-banner.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="images/ind-banner.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="images/ind-banner.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="images/ind-banner.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="images/ind-banner.jpg" alt=""></div>
+			</div>
+			<!-- 如果需要分页器 -->
+			<div class="swiper-pagination"></div>
+		</div>
+	</div>
+	<!-- 家具安装 -->
+	<div class="ind-nav1">
+		<h2>家居安装</h2>
+		<ul>
+			<li><img src="images/wyaz.png" alt=""><p>卫浴安装</p></li>
+			<li><img src="images/djaz.png" alt=""><p>灯具安装</p></li>
+			<li><img src="images/dbaz.png" alt=""><p>地板安装</p></li>
+			<li><img src="images/ymaz.png" alt=""><p>移门安装</p></li>
+			<li><img src="images/jjaz.png" alt=""><p>家具安装</p></li>
+			<li><img src="images/qzaz.png" alt=""><p>墙纸安装</p></li>
+			<li><img src="images/ybddaz.png" alt=""><p>浴霸吊顶安装</p></li>
+			<li><img src="images/djaz.png" alt=""><p>灯具安装</p></li>
+		</ul>
+	</div>
+	<!-- 家具维修 -->
+	<div class="ind-nav1">
+		<h2>家居维修</h2>
+		<ul>
+			<li><img src="images/jjwx.png" alt=""><p>家具维修</p></li>
+			<li><img src="images/wywx.png" alt=""><p>卫浴维修</p></li>
+			<li><img src="images/mbxf.png" alt=""><p>模板修复</p></li>
+			<li><img src="images/djwx.png" alt=""><p>灯具维修</p></li>
+			<li><img src="images/xsgdst.png" alt=""><p>下水管道疏通</p></li>
+			<li><img src="images/xczx.png" alt=""><p>现场增项</p></li>
+			<li><img src="images/jjwx.png" alt=""><p>家具维修</p></li>
+			<li><img src="images/wywx.png" alt=""><p>卫浴维修</p></li>
+			<li><img src="images/mbxf.png" alt=""><p>模板修复</p></li>
+			<li><img src="images/djwx.png" alt=""><p>灯具维修</p></li>
+		</ul>
+	</div>
+	<!-- 二手置换 -->
+	<div class="ind-item">
+		<img src="images/eszh.png" alt="">
+		<h2>二手置换</h2>
+		<p>二手物品在线评估、预约上门回收</p>
+	</div>
+
+	<!-- 货运配送 -->
+	<div class="ind-item">
+		<img src="images/hyps.png" alt="">
+		<h2>货运配送</h2>
+		<p>少量搬运及拆装搬家，大件物品同城配送</p>
+	</div>
+	<!-- 脚注菜单 -->
+	<div class="footer">
+		<ul>
+			<li ><a href="index.html"><span class="change" >首页</span></a></li>
+			<li><a href="page/join.html"><span>入驻</span></a></li>
+			<li><a href="page/order.html"><span>订单</span></a></li>
+			<li><a href="page/me.html"><span>我的</span></a></li>
+		</ul>
+	</div>
+</body>
+<script>
+	
+	$(function(){
+		  //轮播swiper组件
+        var mySwiper = new Swiper ('.swiper-container', {
+            direction: 'horizontal',
+            autoplay: {
+                delay: 1000,
+                disableOnInteraction: false,
+            },
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+            }
+        });
+    
+	})
+
+	
+</script>
+</html>
